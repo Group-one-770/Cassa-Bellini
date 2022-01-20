@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get In Touch</title>
+    
+    <!-- =====Main Css File ===== -->
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- ===== Google Fonts ===== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;600;700&family=Poppins:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- ===== Font-awesome ===== -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <!-- ===== Favicons ===== -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon-16x16.png">
+    <link rel="manifest" href="./assets/site.webmanifest">
+</head>
+<body>
+    
+    <!-- =================== NAVIGATION ================= -->
+    <header class="nav-bar">
+        <div class="container">
+            <div class="nav-container">
+                <a href="./index.html" class="logo">
+                    <img src="./Assets/logo.png" alt="Casa Bellini logo">
+                </a>
+
+                <div class="nav-btn">
+                    <div class="lines"></div>
+                    <div class="lines"></div>
+                    <div class="lines"></div>
+                </div>
+
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link active">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="menu.html" class="nav-link">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="team.html" class="nav-link">Our Team</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- ================== CONTACT PAGE ============= -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-page__container">
+                <div class="info">
+                    <ul class="contact-list">
+                        <li class="contact-item">
+                            <i class="fa fa-home"></i>
+                            <span>Upsa-Road, Adjacent Ernest Chemist</span>
+                        </li>
+                        <li class="contact-item">
+                            <i class="fa fa-envelope"></i>
+                            <span>Groupone770@gmail.com</span>
+                        </li>
+                        <li class="contact-item">
+                            <i class="fa fa-phone"></i>
+                            <span>055 617 7093</span>
+                        </li>
+                    </ul>
+                </div>
+                <form name="Contact" method="POST" data-netlify="true" action="./form-success.html">
+                    <h1 class="heading-main">send us a message</h1>
+                    <input type="text" class="input-field" required placeholder="Full Name" id="fname" name="fname">
+                    <input type="text" class="input-field" required placeholder="Telephone" id="tel" name="tel">
+                    <input type="email" class="input-field" required placeholder="Email Address" id="email" name="email">
+                    <textarea class="input-field" name="message" id="message" cols="30" rows="10" required placeholder="message"></textarea>
+                    <input type="submit" value="Send Message &rightarrow;" class="btn btn-red">
+                </form>
+            </div>
+        </div>
+    </section>
+    
+
+
+
+
+
+
+
+<!-- =================== Section-footer ================= -->
+    <section class="section-footer">
+        <div class="container">
+            <ul class="social-list">
+                <li class="social-item">
+                    <a href="#" class="social-link">
+                        <i class="fa fa-facebook"></i>
+                    </a>
+                </li>
+                <li class="social-item">
+                    <a href="#" class="social-link">
+                        <i class="fa fa-instagram"></i>
+                    </a>
+                </li>
+                <li class="social-item">
+                    <a href="#" class="social-link">
+                        <i class="fa fa-twitter"></i>
+                    </a>
+                </li>
+                <li class="social-item">
+                    <a href="#" class="social-link">
+                        <i class="fa fa-linkedin"></i>
+                    </a>
+                </li>
+            </ul>
+            
+            <ul class="footer-list">
+                <li class="footer-item">
+                    <a href="index.html" class="footer-link">Home</a>
+                </li>
+                <li class="footer-item">
+                    <a href="about.html" class="footer-link">About Us</a>
+                </li>
+                <li class="footer-item">
+                    <a href="#contact" class="footer-link">Contact Us</a>
+                </li>
+                <li class="footer-item">
+                    <a href="menu.html" class="footer-link">Menu</a>
+                </li>
+                <li class="footer-item">
+                    <a href="team.html" class="footer-link">Our Team</a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+
+<!-- =================== Section-Copyright ================= -->
+    <section class="section-copy">
+        <div class="container">
+            <p>© 2022 Casa Bellini, Ltd.. All rights reserved.</p>
+        </div>
+    </section>
+
+
+    <script src="./index.js"></script>
+</body>
+</html>
